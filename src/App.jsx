@@ -1,17 +1,21 @@
+import { lazy } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Layout from './components/layout/Layout'
 import Home from './pages/Home'
-import Shop from './pages/Shop'
-import ProductDetail from './pages/ProductDetail'
-import Box from './pages/Box'
-import Contact from './pages/Contact'
-import Cart from './pages/Cart'
-import Checkout from './pages/Checkout'
-import Login from './pages/Login'
-import Register from './pages/Register'
-import LegalPage from './pages/LegalPage'
-import NotFound from './pages/NotFound'
 import { legalNotice, privacyPolicy, termsOfSale } from './data/legal'
+
+// La page d'accueil est chargée tout de suite ; les autres pages sont
+// téléchargées seulement quand le visiteur les ouvre.
+const Shop = lazy(() => import('./pages/Shop'))
+const ProductDetail = lazy(() => import('./pages/ProductDetail'))
+const Box = lazy(() => import('./pages/Box'))
+const Contact = lazy(() => import('./pages/Contact'))
+const Cart = lazy(() => import('./pages/Cart'))
+const Checkout = lazy(() => import('./pages/Checkout'))
+const Login = lazy(() => import('./pages/Login'))
+const Register = lazy(() => import('./pages/Register'))
+const LegalPage = lazy(() => import('./pages/LegalPage'))
+const NotFound = lazy(() => import('./pages/NotFound'))
 
 export default function App() {
   return (

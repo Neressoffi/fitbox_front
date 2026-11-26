@@ -4,12 +4,21 @@ import Button from '../ui/Button'
 export default function Hero() {
   return (
     <section className="relative isolate overflow-hidden bg-basalte text-white">
-      <img
-        src="/images/hero-pluie.jpg"
-        alt=""
-        fetchPriority="high"
-        className="absolute inset-0 -z-10 h-full w-full object-cover object-[80%_center]"
-      />
+      <picture>
+        <source
+          type="image/webp"
+          srcSet="/images/hero-pluie-1200.webp 1200w, /images/hero-pluie.webp 2400w"
+          sizes="100vw"
+        />
+        <img
+          src="/images/hero-pluie.jpg"
+          alt=""
+          width="2400"
+          height="1000"
+          fetchPriority="high"
+          className="absolute inset-0 -z-10 h-full w-full object-cover object-[80%_center]"
+        />
+      </picture>
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-basalte via-basalte/80 to-basalte/10" aria-hidden="true" />
 
       <div className="container py-20 md:py-32">

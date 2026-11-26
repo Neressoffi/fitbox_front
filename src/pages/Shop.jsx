@@ -12,7 +12,10 @@ import { usePageTitle } from '../hooks/usePageTitle'
 const PRICE_LIMIT = 90
 
 export default function Shop() {
-  usePageTitle('Boutique')
+  usePageTitle(
+    'Boutique',
+    "Vêtements techniques, matériel d'entraînement et accessoires de sport FitBox. Filtre par catégorie et par prix.",
+  )
   const [searchParams, setSearchParams] = useSearchParams()
   const [filtersOpen, setFiltersOpen] = useState(false)
 

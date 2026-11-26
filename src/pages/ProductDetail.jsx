@@ -13,7 +13,7 @@ import { usePageTitle } from '../hooks/usePageTitle'
 export default function ProductDetail() {
   const { slug } = useParams()
   const product = getProductBySlug(slug)
-  usePageTitle(product?.name ?? 'Produit introuvable')
+  usePageTitle(product?.name ?? 'Produit introuvable', product?.description)
 
   const { addItem } = useCart()
   const [quantity, setQuantity] = useState(1)

@@ -7,7 +7,10 @@ import { formatPrice } from '../utils/formatPrice'
 import { usePageTitle } from '../hooks/usePageTitle'
 
 export default function Box() {
-  usePageTitle('La Box')
+  usePageTitle(
+    'La Box',
+    "La Box FitBox : chaque mois, une sélection de vêtements et d'accessoires de sport adaptés à la saison. Sans engagement.",
+  )
   const [selectedPlan, setSelectedPlan] = useState('trimestrielle')
   const [confirmation, setConfirmation] = useState(null)
 
@@ -32,11 +35,16 @@ export default function Box() {
               Voir les formules
             </Button>
           </div>
-          <img
-            src="/images/box-saison.jpg"
-            alt="Veste coupe-vent de la box d'hiver portée sur un sol de roche volcanique"
-            className="aspect-[4/3] w-full rounded-carte object-cover"
-          />
+          <picture>
+            <source type="image/webp" srcSet="/images/box-saison.webp" />
+            <img
+              src="/images/box-saison.jpg"
+              alt="Veste coupe-vent de la box d'hiver portée sur un sol de roche volcanique"
+              width="900"
+              height="900"
+              className="aspect-[4/3] w-full rounded-carte object-cover"
+            />
+          </picture>
         </div>
       </section>
 

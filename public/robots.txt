@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://fitbox-front-blue.vercel.app/sitemap.xml

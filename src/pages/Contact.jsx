@@ -15,7 +15,7 @@ const contactDetails = [
 ]
 
 export default function Contact() {
-  usePageTitle('Contact')
+  usePageTitle('Contact', "Une question sur une commande ou sur la Box ? Écris à l'équipe FitBox, réponse sous 48 h.")
   const [sentTo, setSentTo] = useState(null)
   const { fieldProps, handleSubmit } = useForm(
     { name: '', email: '', subject: 'commande', message: '' },
