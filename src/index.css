@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  :focus-visible {
+    outline: 3px solid theme('colors.lave.clair');
+    outline-offset: 2px;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+}
