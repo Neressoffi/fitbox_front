@@ -47,4 +47,21 @@ Le site est déployé sur Vercel à chaque push sur `main`. Le fichier `vercel.j
 
 ## Crédits
 
-Photographie de la veste : Nuptune, Pexels. Données météo : [Open-Meteo](https://open-meteo.com/).
+Photographies des produits (Pexels, licence libre) :
+
+| Produit | Photographe | Photo Pexels |
+|---|---|---|
+| Veste coupe-vent | Nuptune | 13827794 |
+| Legging thermique | Ketut Subiyanto | 4429101 |
+| Bonnet et gants | cottonbro studio | 7494112 |
+| T-shirt technique | Ketut Subiyanto | 4719931 |
+| Polaire zippée | Daniel Battersby | 9965135 |
+| Short running 2 en 1 | Ketut Subiyanto | 5039659 |
+| Haltères ajustables | Oplita | 7209145 |
+| Bandes élastiques | Karola G | 4378991 |
+| Tapis de yoga | Mikhail Nilov | 6740754 |
+| Kettlebell 12 kg | Pixabay | 416717 |
+| Corde à sauter | Yaroslav Shuraev | 8478702 |
+| Gourde isotherme | cottonbro studio | 3737799 |
+
+Données météo : [Open-Meteo](https://open-meteo.com/).

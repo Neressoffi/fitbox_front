@@ -1,7 +1,7 @@
 export const legalNotice = [
   { heading: 'Éditeur du site', text: "FitBox est un site réalisé dans le cadre d'un projet de formation de développeur web fullstack. Aucune vente réelle n'est effectuée." },
   { heading: 'Hébergement', text: 'Le site est hébergé par Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis.' },
-  { heading: 'Propriété des contenus', text: 'Photographie de la veste : Nuptune, via Pexels (licence libre). Les autres visuels sont des illustrations réalisées pour le projet.' },
+  { heading: 'Propriété des contenus', text: "Photographies des produits, via Pexels (licence libre) : veste, Nuptune ; legging, t-shirt et short, Ketut Subiyanto ; bonnet et gants, gourde, cottonbro studio ; polaire, Daniel Battersby ; haltères, Oplita ; bandes élastiques, Karola G ; tapis de yoga, Mikhail Nilov ; kettlebell, Pixabay ; corde à sauter, Yaroslav Shuraev. Les visuels de la page d'accueil et de la box ont été réalisés pour le projet." },
 ]
 
 export const privacyPolicy = [
